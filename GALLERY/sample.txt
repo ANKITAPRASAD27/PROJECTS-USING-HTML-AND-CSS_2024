@@ -1,0 +1,2 @@
+GALLERY PROJECT.
+using HTML and CSS (grid);
