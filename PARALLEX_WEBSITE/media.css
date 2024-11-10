@@ -1,0 +1,44 @@
+@media(max-width: 700px) {
+    .heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .ptext1 {
+        font-size: 1rem; /* Reduce text size */
+        
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        text-align: center;
+        width: 100%;
+        color: white;
+        text-shadow: -2px 1px 3px white;
+    
+        letter-spacing: 4px;
+            
+    }
+    .textbg:hover{
+        background-image: linear-gradient( 109.6deg,  rgba(33,103,43,1) 11.3%, rgba(117,162,61,1) 91.1% );
+        font-size:1.1rem;
+        transition: all 1s ease-in-out;
+        filter: brightness(70%);
+    }
+    
+
+    .section h2, .section ul {
+        font-size: 1rem;
+    }
+
+    .image1, .image2, .image3 {
+        min-height: 300px; /* Reduce image height for mobile */
+        background-size: contain;
+        min-height:300px;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    footer h3 {
+        font-size: 1rem; /* Adjust footer text size */
+    }
+}
+
